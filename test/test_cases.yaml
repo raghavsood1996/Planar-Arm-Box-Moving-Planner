@@ -1,0 +1,13 @@
+test_cases:
+  - start_pose: [2.0, 1.2, 0.0]
+    goal_pose: [-2, 1.0, 3.14898]
+    target_box_uid: "box_1"
+    clearance_threshold: 0.05
+  - start_pose: [0.366025, 2.36603, 2.0944]
+    goal_pose: [-2, 1.0, 3.14898]
+    target_box_uid: "box_6"
+    clearance_threshold: 0.05
+  - start_pose: [1.85747, 1.63053,  0.1309]
+    goal_pose: [-2, 1.0, 3.14898]
+    target_box_uid: "box_3"
+    clearance_threshold: 0.05
