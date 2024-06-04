@@ -3,6 +3,9 @@
 
 #include <planar_robot_box_moving/robot_arm.h>
 #include <planar_robot_box_moving/environment.h>
+#include <planar_robot_box_moving/box.h>
+#include <Eigen/Dense>
+#include <string>
 
 /**
  * @class CollisionChecker

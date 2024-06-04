@@ -8,6 +8,10 @@
 #include <vtkSmartPointer.h>
 #include <vtkActor.h>
 
+#include <Eigen/Dense>
+#include <array>
+#include <string>
+
 /**
  * @brief Finds a valid collision-free state for the robot given a target pose and a target box.
  * @param robot The robot arm.

@@ -4,8 +4,14 @@
 #include <planar_robot_box_moving/robot_arm.h>
 #include <planar_robot_box_moving/environment.h>
 #include <planar_robot_box_moving/collision_checker.h>
+
 #include <ompl/geometric/SimpleSetup.h>
 #include <ompl/base/spaces/RealVectorStateSpace.h>
+
+
+#include <Eigen/Dense>
+#include <memory>
+#include <string>
 
 /**
  * @class Planner

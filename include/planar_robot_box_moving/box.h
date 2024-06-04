@@ -9,6 +9,7 @@
 #include <vtkSmartPointer.h>
 #include <vtkActor.h>
 #include <array>
+#include <string>
 
 /**
  * @class Box
